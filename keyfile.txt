@@ -1,0 +1,11 @@
+# this is a keychain file for the CS 352 socket assignment 
+# lines with a # in the first word are comments 
+# the keys are labeled by if they are public, private, and the host and
+# destination ports for each key.
+# a '*' is a wild-card that can be used for all hosts and ports
+# private keys are used to decrypt incomming packets and public keys are
+# used to encrypt outbound packets 
+private    *      *   53fbcbb3b76e173f8241408b1f3dd8f9bf0d2a9f84d3db8fee2f38d0f2429729
+public localhost 8888 78c7227cf5c637fbc2066070b6fa2662b5c94bbac6fcb1ba5d77ecd61f718574
+public localhost 9999 78c7227cf5c637fbc2066070b6fa2662b5c94bbac6fcb1ba5d77ecd61f718574
+public 127.0.0.1  *   78c7227cf5c637fbc2066070b6fa2662b5c94bbac6fcb1ba5d77ecd61f718574
